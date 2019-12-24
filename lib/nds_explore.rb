@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
   key = 0 
   movies = directors_database[key][:movies]
   value = 0 
-  binding.pry 
+  #binding.pry 
   while value < movies.length do 
     puts "#{movies[value][:title]}\n"
     value += 1 
